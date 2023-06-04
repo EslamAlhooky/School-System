@@ -1,0 +1,15 @@
+h2 {
+    background-color: #ddd;
+    text-align: center;
+
+}
+div {
+    background-image: url(../images/A33.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+table {
+    margin: 0px auto;
+    color:white;
+}

@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    scroll-behavior: smooth;
+
+}
+
+header {
+background-color: #f0f0f0;
+width:100%;
+position:fixed;
+z-index:999;
+display: flex;
+ justify-content: space-between;  
+align-items: center;
+padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    font-size:25px ;
+    font-weight: bold;
+    color: black; 
+    position: relative;
+    left: -145px;
+}
+.logo:hover{
+    /* color: rgb(230, 121, 20); */
+    color:red;
+}
+.logo1 {
+    text-decoration: none;
+    font-size:25px ;
+    font-weight: bold;
+    color: black;
+    /* margin-left: 50px; */
+    position: relative;
+    left: -240px;
+}
+.logo1:hover{
+    /* color: rgb(230, 121, 20); */
+    color:red;
+}
+.logo2 {
+    text-decoration: none;
+    font-size:25px ;
+    font-weight: bold;
+    color: black;
+    /* margin-left: 50px; */
+    position: relative;
+    left: -320px;
+}
+.logo2:hover{
+    /* color: rgb(230, 121, 20); */
+    color:red;
+}
+
+
+.navigation a{
+color:#3a6cf4;
+text-decoration: none;
+font-size: 20px;
+font-weight:bold;
+padding-left: 5px;
+position: relative;
+right: -140px;
+}
+
+.navigation a:hover{
+    color:red;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    /* width:100%; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../images/A44.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+ 
+.main h2 {
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:white;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.main-btn {
+    color:#fff;
+    background-color:black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight:600;
+    display: inline-block;
+    /* padding: 0.9375em 2.1875em; */
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 0px; 
+    /* transition: 0.7s ease; */
+ }
+.main-btn:hover {
+    color: red;
+    /* transform: scale(1.1); */
+}
+
+.sociat-icons a {
+    color: #ffff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+.sociat-icons a {
+    color:red;
+    display: inline-block;
+    padding-right: 30px;
+    letter-spacing:30px; 
+      font-size: 50px;
+    font-weight: bold;
+    transition:0.7s ease ;
+} 
+.main .sp2 .sociat-icons .fa-brands fa-linkedin{
+    color: #ee3be5;
+}
+i .fa-brands fa-linkedin{
+    color: #ee3be5;
+}
+i .fa-brands fa-youtube{
+    color: red;
+}
+.sociat-icons a:hover {
+    color: #ee3be5;
+    transform:scale(1.1) ;
+ 
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #0a49f6;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color:#fff;
+    width: 250px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 5px 5px 25px rgba(1 1 1/70% );
+    border-radius: 10px;
+    transition: 0.7s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon {
+    color: #0a49f6;
+    font-size: 50px;
+    text-align: center;
+}
+.info h3 {
+    color: #0a49f6;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.project {
+    background-color: #000;
+}
+.project .content {
+    margin-top: 30px;
+}
+.project-card {
+    background-color: #fff;
+    border: 2px solid #fff;
+    min-height:200px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-image img {
+   width: 100%;
+}
+.project-info {
+    padding: 2px;
+}
+.p-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight:bold;
+    margin-top: 10px;
+}
+.pa1{
+    text-decoration: none;
+    color: #0a49f6;
+}
+.pa1:hover{
+    color: #601cfc;
+}
+
+
+
+/* qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+
+ul li a{
+    text-decoration: none;
+    color: #f8ce97;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+    }
+ul li a:hover {
+    color:#f88c34 ;
+}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #f88c34;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  /* @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+     */
+  /* @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  } */
+  
+  /* Change styles for span and cancel button on extra small screens */
+  /* @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  } */
+/* .contact
+{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #000;
+    position: relative;
+} */
+.contact .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.contact h1 
+{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    
+}
+.contact span{
+    color: #f88c34;
+    font-size: 60px;
+    
+}
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .success {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .success:hover {
+    background: #ff9800;
+    color: white;
+  }
+  
+  /* Blue */
+  .info {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .info:hover {
+    background: #ff9800;
+    color: white;
+  }
+  
+  /* Orange */
+  .warning {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+  .warning:hover {
+    background: #ff9800;
+    color: white;
+  }
+li{
+    text-decoration: none;
+    /* color: #aa6363;
+    font-family: Arial;
+    font-weight: bold; */
+    transition: 0.4s ease-in-out;
+}
+ li:hover {
+    color:#f88c34 ;
+}

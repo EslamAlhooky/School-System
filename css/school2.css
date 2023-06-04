@@ -1,0 +1,72 @@
+
+body {
+    display: flex;
+    background-image: url(../images/uu.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+h2 {
+    color: blue;
+}
+
+
+
+.form1 {
+    width: 300px;
+    height: 430px;
+    border: 10px solid red ;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../images/A44.jpeg) ;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    margin:50px auto;
+
+}
+
+
+.form2 {
+    width: 300px;
+    height: 430px;
+    border: 10px solid red ;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../images/A44.jpeg) ;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    margin:50px auto;
+
+}
+
+
+.form3 {
+    width: 300px;
+    height: 430px;
+    border: 10px solid red ;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(../images/A44.jpeg) ;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bold;
+    margin:50px auto;
+
+}
+ 
+ a {
+    color:rgb(11, 69, 87);
+    background-color:aqua;
+    text-decoration: none;
+    font-size:50px ;
+    font-weight:bold;
+    display: inline-block;
+    /* padding: 0.9375em 2.1875em; */
+    /* letter-spacing: 1px; */
+    border-radius: 15px;
+    margin-bottom: 20px; 
+}
